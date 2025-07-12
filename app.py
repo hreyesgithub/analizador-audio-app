@@ -16,6 +16,7 @@ except Exception as e:
 st.set_page_config(page_title="Asistente de Análisis de Audio", layout="wide")
 st.title("🚀 Asistente de Análisis de Audio")
 st.markdown("Sube un archivo de audio (MP3, WAV, M4A) y obtén una transcripción, resumen y análisis detallado.")
+st.markdown("Ten cuidado con la información que subas, asegúrate de que no contenga datos confidenciales, que comprometan la seguridad, o violente la privacidad de las personas.")
 
 # --- FUNCIONES DE ANÁLISIS ---
 @st.cache_data
